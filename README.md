@@ -7,9 +7,13 @@ I wanted to make a DatabaseObject interface and implement it for all the DAOs si
 So, almost all the classes/tables have the following method capabilities:
 
 >  `Find All`  returns a list of objects in table.
+
 >  `Find by ID` returns an object with a matching id.
+
 >  `Add *Object*` adds an object to the database.
+
 >  `Delete *Object*` deletes an object from the database.
+
 >  `Update *Object*` changes an existing object with a replacement.
 
  
